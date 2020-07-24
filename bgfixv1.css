@@ -1,0 +1,88 @@
+header{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.navigation{
+    display: flex;
+    /* border: 2px solid rgb(224, 214, 214);  */
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: 'Monoton', cursive;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.text:hover{
+    box-shadow: -1px 1px 13px 0px rgb(168, 162, 162);
+}
+
+body{
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+header::before{
+    background: url('https://source.unsplash.com/featured/?indian sweets') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: .5;
+}
+section{
+    display: flex;
+    height: 50%;
+    margin: 0px 50px;
+    flex-direction: column;
+    text-align: center;
+    /* border: solid 2px red; */
+    padding: 10px 10px;
+    justify-content: center;
+}
+p{
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Monoton', cursive;
+    font-size: 2em;
+    font-weight: 500;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.box img:hover{
+    /* transform: scale(1.05); */
+    transition: ease-in-out .5s;
+    border-radius: 40px;
+}
+.navigation img{
+    width: 50px;
+    height: 50px;
+}
+
+section hr{
+    display: inline-block;
+    height: 2px;
+    width: 34%;
+    background-color: #ff006ff5;
+    border: 1px solid #ff006ff5;
+    border-radius: 5px;
+}
