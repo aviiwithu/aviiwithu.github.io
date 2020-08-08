@@ -86,3 +86,6 @@ section hr{
     border: 1px solid #ff006ff5;
     border-radius: 5px;
 }
+a{
+    text-decoration: none;
+}
